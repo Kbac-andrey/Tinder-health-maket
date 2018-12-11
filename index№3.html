@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project</title>
+    <link rel="stylesheet" href="style/bootstrap-grid.css">
+    <link rel="stylesheet" href="style/main.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="Lab">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <h1 class="lab-title">
+                            Choose nearest Lab
+                        </h1>
+                        <div class="tab">
+                            <input id="tab1" type="radio" name="tabs" checked>
+                            <label for="tab1">List view</label>
+
+                            <input id="tab2" type="radio" name="tabs">
+                            <label for="tab2">Map view</label>
+
+                            <section id="content1">
+                                <ul class="lab-address">
+                                    <li class="key-address">Address 1 100m</li>
+                                    <li class="key-address">Address 2 350m</li>
+                                    <li class="key-address">Address 3 1,5km</li>
+                                    <li class="key-address">Address 4 1,7km</li>
+                                    <li class="key-address">Address 5 3,0km</li>
+                                </ul>
+                            </section>
+
+                            <section id="content2">
+                                <div class="google-map"></div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
